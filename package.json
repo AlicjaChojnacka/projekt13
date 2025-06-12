@@ -12,7 +12,10 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
     "@tailwindcss/vite": "^4.1.8",
+    "date-fns": "^4.1.0",
+    "supabase": "^2.24.3",
     "tailwindcss": "^4.1.8"
   }
 }

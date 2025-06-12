@@ -1,15 +1,38 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <link rel="stylesheet" href="/style.css">
-  </head>
-  <body>
-    <div id="app">
-      <a href="/">Home</a>
-    </div>
-    <script type="module" src="/login/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <a class="inline-block bg-orange-300 hover:bg-orange-700 hover:scale-110 text-white font-bold m-2 py-2 px-4
+      rounded" href="/">Home</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <form id="loginForm" class=" grid place-content-center ">
+      <div>
+        <label class="py-3 text-gray-700 text-sm block font-bold" for="login">
+          E-mail:
+        </label>
+        <input class="border rounded py-2 px-3 text-gray-700" type="email" id="login">
+      </div>
+      <div><label class="block py-3 text-gray-700 text-sm font-bold" for=" password">Hasło:</label>
+        <input class=" border rounded py-2 px-3 text-gray-700" type="password" id="password">
+      </div>
+      <button type="submit"
+        class="bg-orange-300 hover:bg-orange-700 hover:scale-110 text-white font-bold m-3 py-2 px-4 rounded">Zaloguj</button>
+    </form>
+  </main>
+  <script type="module" src="/login/main.js"></script>
+</body>
+
 </html>
