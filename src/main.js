@@ -47,7 +47,7 @@ async function checkStatus() {
     isLogged = false;
     console.log("Jesteś wylogowany");
     var z = document.createElement('a');
-    z.setAttribute("href", "/login/");
+    z.setAttribute("href", "/projekt13/login/");
     var tz = document.createTextNode("Zaloguj się");
     z.className = "inline-block bg-orange-300 hover:bg-orange-700 hover:scale-110 text-white font-bold m-2 py-2 px-4 rounded";
     z.appendChild(tz);
