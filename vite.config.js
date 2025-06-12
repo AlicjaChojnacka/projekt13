@@ -11,6 +11,7 @@ export default defineConfig(async () => {
   const inputs = entries.map(entry => resolve(__dirname, entry))
 
   return {
+    base: '/projekt13/',
     plugins: [tailwindcss()],
     root: resolve(__dirname, 'src'),
     build: {
